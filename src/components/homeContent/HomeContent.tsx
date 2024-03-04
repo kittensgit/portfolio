@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { Link } from 'react-router-dom';
 
 import styles from './HomeContent.module.css';
 
@@ -12,7 +13,7 @@ const HomeContent: FC = () => {
             <nav className={styles.nav}>
                 <ul>
                     <li>
-                        <a href="!#">About</a>
+                        <Link to="/about">About</Link>
                     </li>
                     <li>
                         <a href="!#">Projects</a>

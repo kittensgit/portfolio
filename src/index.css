@@ -118,3 +118,19 @@ body {
     border: 1px solid white;
     padding: 40px;
 }
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.float-text {
+    animation: float 1.5s infinite; /* Измените продолжительность и параметры анимации по вашему усмотрению */
+}
